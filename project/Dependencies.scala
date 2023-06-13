@@ -2,7 +2,7 @@ import sbt.*
 
 /** Dependencies for reuse in different parts of the build */
 object Dependencies {
-  val scalaVersions = Seq("2.12.17", "2.13.11") // When updating these also update ci.yml and .mergify.yml
+  val scalaVersions = Seq("2.12.18", "2.13.11") // When updating these also update ci.yml and .mergify.yml
 
   val slf4j = "org.slf4j" % "slf4j-api" % "2.0.7"
   val typesafeConfig = "com.typesafe" % "config" % "1.4.2"
@@ -17,7 +17,7 @@ object Dependencies {
     "junit" % "junit-dep" % "4.11",
     "com.github.sbt" % "junit-interface" % "0.13.3"
   )
-  val logback = "ch.qos.logback" % "logback-classic" % "1.3.7"
+  val logback = "ch.qos.logback" % "logback-classic" % "1.3.8"
   val hikariCP = "com.zaxxer" % "HikariCP" % "4.0.3"
 
   val h2 = "com.h2database" % "h2" % "1.4.200"
